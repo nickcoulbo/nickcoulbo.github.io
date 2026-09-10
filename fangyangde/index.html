@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>放羊的星星拍摄花絮-经典偶像剧幕后故事与精彩瞬间回顾</title>
+    <meta name="description" content="深入了解经典偶像剧《放羊的星星》拍摄花絮，重温仲天骐与夏之星背后的拍摄故事、演员互动、经典场景制作过程与幕后趣闻。">
+    <meta name="keywords" content="放羊的星星,拍摄花絮,放羊的星星花絮,偶像剧幕后,仲天骐,夏之星,林志颖,刘荷娜,拍摄故事">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+            background: #faf5f0;
+            color: #3a2e2a;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* 顶部信息条 */
+        .top-bar {
+            background: #8c2f39;
+            color: #f7e8e4;
+            padding: 8px 0;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+        }
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .top-bar a {
+            color: #f7e8e4;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .top-bar a:hover {
+            text-decoration: underline;
+        }
+        /* 页眉主导航 */
+        .site-header {
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(140, 47, 57, 0.08);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo-area {
+            display: flex;
+            align-items: center;
+        }
+        .logo-icon {
+            background: #8c2f39;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            width: 44px;
+            height: 44px;
+            border-radius: 12px 4px 12px 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            transform: rotate(-3deg);
+        }
+        .logo-text {
+            font-size: 22px;
+            font-weight: 700;
+            color: #8c2f39;
+            letter-spacing: 1px;
+        }
+        .logo-text small {
+            display: block;
+            font-size: 11px;
+            font-weight: 400;
+            color: #a0706a;
+            letter-spacing: 2px;
+        }
+        .main-nav ul {
+            display: flex;
+            list-style: none;
+            gap: 8px;
+        }
+        .main-nav ul li a {
+            display: block;
+            padding: 8px 16px;
+            color: #3a2e2a;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 500;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        .main-nav ul li a:hover,
+        .main-nav ul li a.active {
+            background: #8c2f39;
+            color: #fff;
+        }
+        /* 移动端导航 */
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 2px solid #8c2f39;
+            color: #8c2f39;
+            font-size: 18px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        /* 首屏 Hero */
+        .hero {
+            background: linear-gradient(135deg, #2c1e1a 0%, #4a2c28 40%, #8c2f39 100%);
+            color: #fdf3ef;
+            padding: 60px 0 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: "✦";
+            position: absolute;
+            font-size: 300px;
+            right: -50px;
+            bottom: -80px;
+            color: rgba(255, 215, 200, 0.06);
+            transform: rotate(15deg);
+        }
+        .hero-inner {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .hero-text {
+            flex: 1;
+            min-width: 280px;
+        }
+        .hero-text .tagline {
+            font-size: 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #e8b4a8;
+            margin-bottom: 12px;
+            border-left: 3px solid #e8b4a8;
+            padding-left: 12px;
+        }
+        .hero-text h1 {
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.3;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        }
+        .hero-text p {
+            font-size: 16px;
+            max-width: 560px;
+            color: #ebd6cf;
+            margin-bottom: 24px;
+        }
+        .hero-stats {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(4px);
+            border-radius: 16px;
+            padding: 14px 22px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+        .stat-item .num {
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffd9c9;
+        }
+        .stat-item .label {
+            font-size: 12px;
+            color: #d9b8ad;
+            letter-spacing: 1px;
+        }
+        .hero-image {
+            flex: 0 0 200px;
+            text-align: center;
+        }
+        .hero-image .placeholder-poster {
+            width: 180px;
+            height: 240px;
+            background: linear-gradient(145deg, #f7d9c9, #b15e5a);
+            border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #3a1e18;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 0 auto;
+            border: 3px solid rgba(255,255,255,0.25);
+        }
+        .placeholder-poster span {
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 5px;
+            opacity: 0.8;
+        }
+        /* 主要内容区 */
+        .content-section {
+            padding: 50px 0;
+        }
+        .content-section h2 {
+            font-size: 30px;
+            font-weight: 700;
+            color: #8c2f39;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 8px;
+        }
+        .content-section h2::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60%;
+            height: 3px;
+            background: linear-gradient(90deg, #8c2f39, #d9a28f);
+            border-radius: 3px;
+        }
+        .section-desc {
+            color: #6a5a55;
+            margin-bottom: 30px;
+            font-size: 15px;
+            max-width: 800px;
+        }
+        /* 幕后花絮卡片区 */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .feature-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 28px 24px;
+            box-shadow: 0 8px 25px rgba(140, 47, 57, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid #8c2f39;
+        }
+        .feature-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 35px rgba(140, 47, 57, 0.15);
+        }
+        .feature-card h3 {
+            font-size: 18px;
+            color: #8c2f39;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+        .feature-card h3 .icon {
+            background: #8c2f39;
+            color: #fff;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-size: 16px;
+        }
+        .feature-card p {
+            font-size: 14px;
+            color: #5f4e47;
+            line-height: 1.8;
+        }
+        /* 花絮精选列表 */
+        .list-block {
+            background: #fff;
+            border-radius: 20px;
+            padding: 35px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+            margin-top: 40px;
+        }
+        .list-block h3 {
+            font-size: 20px;
+            color: #8c2f39;
+            margin-bottom: 20px;
+        }
+        .highlight-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .highlight-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            padding: 12px 0;
+            border-bottom: 1px dashed #e8d9d2;
+        }
+        .highlight-item:last-child {
+            border-bottom: none;
+        }
+        .item-num {
+            background: #f3e0d8;
+            color: #8c2f39;
+            font-weight: 700;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 15px;
+        }
+        .item-content {
+            flex: 1;
+        }
+        .item-content h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #3a2e2a;
+            margin-bottom: 4px;
+        }
+        .item-content p {
+            font-size: 14px;
+            color: #6a5a55;
+        }
+        /* 拍摄知识 / FAQ */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .two-col {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+        .knowledge-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.04);
+        }
+        .knowledge-card h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #8c2f39;
+            border-bottom: 2px solid #f0e0d8;
+            padding-bottom: 10px;
+        }
+        .knowledge-card p {
+            font-size: 14px;
+            color: #5f4e47;
+            margin-bottom: 12px;
+        }
+        .faq-item {
+            margin-bottom: 18px;
+        }
+        .faq-item summary {
+            font-weight: 600;
+            color: #3a2e2a;
+            cursor: pointer;
+            font-size: 15px;
+            margin-bottom: 6px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        .faq-item summary::before {
+            content: "Q";
+            background: #8c2f39;
+            color: white;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        .faq-item .answer {
+            padding-left: 32px;
+            font-size: 14px;
+            color: #5f4e47;
+        }
+        /* 页脚 */
+        .site-footer {
+            background: #2c1e1a;
+            color: #c9b8b2;
+            padding: 40px 0 20px;
+            margin-top: 40px;
+        }
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .footer-col h4 {
+            color: #f0d9d2;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .footer-col a {
+            display: block;
+            color: #b09c96;
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            color: #e8b4a8;
+        }
+        .copyright {
+            text-align: center;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: 30px;
+            font-size: 13px;
+            color: #9a8881;
+        }
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .main-nav {
+                display: none;
+                width: 100%;
+                margin-top: 10px;
+            }
+            .main-nav ul {
+                flex-direction: column;
+                gap: 0;
+            }
+            .main-nav ul li a {
+                border-radius: 8px;
+                padding: 12px 16px;
+            }
+            .nav-toggle {
+                display: block;
+            }
+            .main-nav.open {
+                display: block;
+            }
+            .hero {
+                padding: 40px 0;
+            }
+            .hero-text h1 {
+                font-size: 32px;
+            }
+            .hero-image {
+                flex-basis: 100%;
+                margin-top: 20px;
+            }
+            .list-block {
+                padding: 20px;
+            }
+            .content-section {
+                padding: 35px 0;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero-stats {
+                gap: 12px;
+            }
+            .stat-item {
+                padding: 10px 14px;
+                flex: 1;
+                min-width: 70px;
+            }
+            .stat-item .num {
+                font-size: 22px;
+            }
+        }
+    </style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <div class="top-bar">
+        <div class="container">
+            <span>★ 经典偶像剧《放羊的星星》拍摄花絮专题</span>
+            <div class="top-links">
+                <a href="#">花絮首页</a>
+                <a href="#">幕后故事</a>
+                <a href="#">演员动态</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主头部 -->
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo-area">
+                <div class="logo-icon">星</div>
+                <div class="logo-text">放羊的星星<br><small>拍摄花絮 · 珍藏馆</small></div>
+            </div>
+            <button class="nav-toggle" onclick="document.querySelector('.main-nav').classList.toggle('open')">☰ 菜单</button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">首页花絮</a></li>
+                    <li><a href="#">经典片段</a></li>
+                    <li><a href="#">演员访谈</a></li>
+                    <li><a href="#">拍摄地揭秘</a></li>
+                    <li><a href="#">幕后团队</a></li>
+                    <li><a href="#">周边资讯</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首屏 Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-text">
+                    <div class="tagline">✦ 2007 经典偶像剧 · 幕后全纪录</div>
+                    <h1>《放羊的星星》拍摄花絮<br>重温仲夏夜之梦的诞生</h1>
+                    <p>从仲天骐的赛车服到夏之星的珠宝设计，从浪漫的希腊圣托里尼到台北街头的追逐——这里收罗了《放羊的星星》片场最真实、最动人的瞬间，带你走进那一年夏天的拍摄记忆。</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="num">20+</div>
+                            <div class="label">经典花絮片段</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="num">15+</div>
+                            <div class="label">幕后趣闻记录</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="num">10+</div>
+                            <div class="label">演员访谈精选</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="placeholder-poster">
+                        ★<br>放羊的星星<br><span>拍摄花絮</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 花絮亮点卡片 -->
+    <section class="content-section">
+        <div class="container">
+            <h2>✨ 花絮亮点·你不知道的片场故事</h2>
+            <p class="section-desc">《放羊的星星》不仅创造了收视神话，其拍摄过程也充满了欢笑与挑战。以下花絮记录了演员们戏外的真实一面与制作团队的用心。</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3><span class="icon">🎬</span> 赛车戏实拍挑战</h3>
+                    <p>仲天骐的赛车场面大多采用实景拍摄。林志颖本人拥有丰富的赛车经验，但剧组仍为安全做了大量准备。花絮中可以看到他亲自指导替身演员走位，甚至亲自完成高难度漂移镜头，专业态度令人敬佩。</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="icon">💎</span> 珠宝设计细节</h3>
+                    <p>夏之星是珠宝设计师，剧中出现的每一件作品都经过专人设计。花絮记录了道具组如何与设计师合作，从草图到成品，确保每颗"星星"都符合角色设定。那些闪闪发光的饰品背后是整整三个月的筹备。</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="icon">🌊</span> 圣托里尼浪漫拍摄</h3>
+                    <p>剧组远赴希腊圣托里尼岛拍摄重要场景。花絮中展现了演员们在蓝天碧海间的欢乐互动，刘荷娜（饰夏之星）曾在采访中表示，那是全剧拍摄中最难忘的时光，虽然赶戏辛苦，但美景让大家充满能量。</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="icon">😄</span> 片场欢乐NG</h3>
+                    <p>放羊的星星片场以欢乐著称。花絮中可以看到林志颖经常开玩笑逗笑刘荷娜，导致对方NG不断。有一场哭戏，因为林志颖在镜头外做鬼脸，让刘荷娜笑场了整整七次，最后导演不得不清场拍摄。</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="icon">🎵</span> 音乐与氛围</h3>
+                    <p>拍摄时剧组会播放剧中的配乐帮助演员入戏。尤其是那首《我们的纪念》，每当旋律响起，片场就会安静下来，演员们迅速进入状态。花絮中记录了配乐师与导演讨论音乐与剧情契合度的珍贵画面。</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="icon">🤝</span> 演员间的默契</h3>
+                    <p>林志颖与刘荷娜虽然语言不通，但通过简单的韩语、中文和肢体语言建立了深厚默契。花絮里能看到他们用翻译软件交流、互相学习对方语言的可爱场景，这份友谊一直延续到剧集宣传期。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 经典花絮列表 -->
+    <section class="content-section" style="padding-top:0;">
+        <div class="container">
+            <div class="list-block">
+                <h3>🎥 不可错过的经典拍摄花絮 TOP 8</h3>
+                <div class="highlight-list">
+                    <div class="highlight-item">
+                        <div class="item-num">1</div>
+                        <div class="item-content">
+                            <h4>第一集赛车追逐幕后</h4>
+                            <p>开篇的高强度赛车追逐戏拍了整整四天。花絮显示林志颖在炎炎夏日穿着赛车服反复试跑，衣服湿透也毫无怨言，还主动帮工作人员搬设备。</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="item-num">2</div>
+                        <div class="item-content">
+                            <h4>天台告白名场面拍摄</h4>
+                            <p>仲天骐在天台对夏之星告白的经典场景，实际拍摄时因风力太大，刘荷娜的头发一直乱飞。导演灵机一动让林志颖用手帮她整理头发，反而成就了更甜蜜的画面。</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="item-num">3</div>
+                        <div class="item-content">
+                            <h4>刘荷娜的中文挑战</h4>
+                            <p>花絮中记录了刘荷娜苦练中文台词的过程。她的剧本上写满了拼音标注，林志颖也耐心教她发音。有一句"你这个大笨蛋"她练了五十多遍才达到导演要求。</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="item-num">4</div>
+                        <div class="item-content">
+                            <h4>珠宝店抢劫戏的意外</h4>
+                            <p>拍摄珠宝店抢劫戏时，道具玻璃意外碎裂，碎片飞溅。幸好无人受伤，但林志颖第一时间挡在刘荷娜身前，这个下意识的保护动作让全场工作人员感动。</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="item-num">5</div>
+                        <div class="item-content">
+                            <h4>吻戏前的趣事</h4>
+                            <p>据花絮透露，拍摄吻戏前林志颖会先吃一颗薄荷糖，还会开玩笑地问刘荷娜"今天吃大蒜了吗"，缓解对方的紧张情绪。两人专业的表演让导演一条通过。</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="item-num">6</div>
+                        <div class="item-content">
+                            <h4>欧雅若的内心戏</h4>
+                            <p>洪小铃饰演的欧雅若有许多复杂的情感戏。花絮中她会在开拍前独自在角落酝酿情绪，其他演员也非常配合，尽量不打扰她。她精湛的演技获得了全组称赞。</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="item-num">7</div>
+                        <div class="item-content">
+                            <h4>杀青时的感人场面</h4>
+                            <p>最后一场戏拍完后，全组人员都依依不舍。花絮记录了刘荷娜流泪感谢每一位工作人员的画面，林志颖也红了眼眶，大家合影留念了很久才散去。</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="item-num">8</div>
+                        <div class="item-content">
+                            <h4>导演的严苛要求</h4>
+                            <p>导演陈铭章对细节要求极高。花絮中有一个镜头因背景中路人看镜头的动作穿帮，整个场景重拍。正是这种严谨态度，成就了剧集的品质。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 双栏：拍摄知识+常见问题 -->
+    <section class="content-section">
+        <div class="container">
+            <div class="two-col">
+                <div class="knowledge-card">
+                    <h3>🎞️ 关于《放羊的星星》拍摄背景</h3>
+                    <p>《放羊的星星》由三立电视制作，于2007年首播，由林志颖、刘荷娜、立威廉、洪小铃等主演。该剧融合了赛车、珠宝设计、浪漫爱情等元素，在当时创下了极高的收视率。</p>
+                    <p>全剧主要在台湾地区拍摄，包括台北市区、赛车场以及中影文化城等场地。剧组还远赴希腊圣托里尼岛取景，为观众呈现了唯美的异国风光。剧中仲天骐的"仲夏夜之星"珠宝设计贯穿全剧，成为一大亮点。</p>
+                    <p>拍摄周期大约为四个月，期间演员们建立了深厚的友谊。林志颖在拍摄过程中展现了专业赛车手的素养，为剧中的赛车戏增色不少。刘荷娜虽然是韩国演员，但通过努力克服了语言障碍，成功塑造了夏之星这一经典角色。</p>
+                </div>
+                <div class="knowledge-card">
+                    <h3>❓ 关于拍摄花絮的常见问题</h3>
+                    <div class="faq-item">
+                        <summary>《放羊的星星》有官方拍摄花絮吗？</summary>
+                        <p class="answer">当年发行的DVD中附赠了部分拍摄花絮和幕后特辑。此外，三立电视在剧集播出期间也曾发布过一些片场探班视频，不过目前大部分官方花絮在网络上已较难找到完整版本。</p>
+                    </div>
+                    <div class="faq-item">
+                        <summary>花絮中哪些片段最受粉丝欢迎？</summary>
+                        <p class="answer">根据粉丝讨论，最受欢迎的花絮包括：林志颖和刘荷娜的互动NG片段、赛车戏幕后、希腊拍摄的旅行记录，以及演员们互相学习语言的有趣过程。</p>
+                    </div>
+                    <div class="faq-item">
+                        <summary>为什么现在的画质看起来不太清晰？</summary>
+                        <p class="answer">该剧拍摄于2007年，当时主要使用标清设备。近年虽有一些重制版推出，但原始花絮素材多为标清格式，因此清晰度有限，这也是正常现象。</p>
+                    </div>
+                    <div class="faq-item">
+                        <summary>演员们现在还有联系吗？</summary>
+                        <p class="answer">林志颖曾在采访中表示与刘荷娜偶有联系，刘荷娜结婚时他还送上了祝福。同剧组的演员们关系保持良好，偶尔会在社交媒体上互动。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-col">
+                    <h4>花絮栏目</h4>
+                    <a href="#">片场直击</a>
+                    <a href="#">演员访谈</a>
+                    <a href="#">导演手记</a>
+                    <a href="#">经典镜头解析</a>
+                </div>
+                <div class="footer-col">
+                    <h4>剧集资料</h4>
+                    <a href="#">角色介绍</a>
+                    <a href="#">剧情回顾</a>
+                    <a href="#">拍摄地介绍</a>
+                    <a href="#">原声带信息</a>
+                </div>
+                <div class="footer-col">
+                    <h4>关于本站</h4>
+                    <a href="#">关于我们</a>
+                    <a href="#">内容声明</a>
+                    <a href="#">联系方式</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 放羊的星星拍摄花絮专题站 · 重温经典，致敬那年的仲夏夜之星</p>
+                <p style="margin-top:5px;font-size:12px;">本站为非官方粉丝交流页面，内容基于公开资料整理</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 简单的移动端导航切换（已在按钮上使用内联 onclick）
+        // 预留更多交互可在此添加，保持轻量
+        document.addEventListener('DOMContentLoaded', function() {
+            // 确保点击导航链接后关闭移动端菜单
+            const nav = document.querySelector('.main-nav');
+            if (nav) {
+                const links = nav.querySelectorAll('a');
+                links.forEach(function(link) {
+                    link.addEventListener('click', function() {
+                        nav.classList.remove('open');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+                      </html>
